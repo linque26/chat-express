@@ -1,0 +1,92 @@
+.box {
+  display: flex;
+  align-items: stretch;
+  border-width: 10px;
+  flex-direction: columns;
+  height: 500px;
+  width: 600px;
+  background-color: rgb(130, 200, 202);
+}
+
+.options {
+  flex-direction: columns;
+  justify-content: space-around;
+  height: 500px;
+  width: 200px;
+  flex-wrap: wrap-reverse;
+  background-color: cadetblue;
+}
+
+.forms {
+  flex-direction: columns;
+  height: 500px;
+  width: 400px;
+  flex-wrap: wrap-reverse;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.space {  
+  height: 20px;
+}
+
+.button {
+  height: 30px;
+  width: 180px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.buttonForm {
+  height: 30px;
+  width: 100px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+
+.chat {
+  border: 1px solid #999;
+  /*display: inline-block;*/
+  vertical-align: bottom;
+  /*position: relative;*/
+  /*margin: 0 5px;
+  pointer-events: auto;*/
+  
+}
+
+.chatContainer {
+  height: 400px;
+  width: 300px;
+  background-color: rgba(248, 240, 240, 0.979);
+  padding-left: 0px;
+  flex-direction: columns;
+}
+
+#titleChatRoom {
+  background-color: rgba(214, 220, 233, 0.979);
+}
+
+.topcontainer {
+  /*position: fixed;*/
+  bottom: 30px;
+  /*left: 0;*/
+  /*pointer-events: none;*/
+}
+.botcontainer {
+  /*position: fixed;*/
+  bottom: 160px;
+  /*left: 0;*/
+  /*pointer-events: none;*/
+}
+
+.chatInput{
+  width: 300px;
+}
+
+.activeUserContainer {
+  height: 240px;
+  width: 180px;
+  background-color: rgba(214, 220, 233, 0.979);
+  overflow:scroll;
+}

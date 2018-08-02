@@ -57,7 +57,7 @@ class Chat extends Component {
                             <input type="submit" value="Send" />
                         </div>
                     </form>
-                </div>
+                </div>                
             </div>
            : null 
         )

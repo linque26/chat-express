@@ -70,7 +70,6 @@ class App extends Component {
           <div><h3>{this.state.errorMessage}</h3></div>
           <div className="space" />
           {this.state.loginSuccess ? (<div><ActiveUsers /></div>) : (<div></div>)}
-          <div className="space" />
           <div><h3><img src={userImage} width="40px" height="40px" />{this.state.nickname}</h3></div>
         </div>
         <div className="forms">
